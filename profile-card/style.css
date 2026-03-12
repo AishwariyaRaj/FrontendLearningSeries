@@ -1,0 +1,51 @@
+.cardsmaking{
+   border : 5px solid black;
+   margin-top: 50px;
+   width: 400px;
+   padding: 70px;
+   text-align: center;
+   margin-left: 450px;
+   border-radius: 30px;
+   height: 450px;
+   border-color: white;
+   background-color: white;
+   box-shadow: 5px 5px 5px 5px white;
+   
+}
+
+body{
+   background-color:rgba(105, 105, 149, 0.786);
+}
+
+.post{
+   color:black;
+   box-shadow: 2px 2px 2px rgba(0, 0, 255, 0.54);
+   border-radius: 20px;
+   font-size: small;
+   padding: 10px;
+   background-color: rgba(0, 0, 255, 0.54);
+   width: 120px;   /* smaller width */
+   margin-top: 10px;
+}
+
+.container{
+   display: flex;
+   justify-content: center;
+   gap: 15px;
+}
+
+
+.button1{
+   margin-top: 40px;
+   /* border: 1px solid rgba(0, 0, 255, 0.54); */
+   background-color: rgba(0, 0, 255, 0.54);
+   border-radius: 20px;
+   color: white;
+   text-align: center;
+   box-shadow: 2px 2px 2px rgba(0, 0, 255, 0.54);
+   padding :5px
+}
+
+.image{
+   border: 2px solid rgba(0, 0, 255, 0.54) ;
+}
