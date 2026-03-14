@@ -1,0 +1,78 @@
+.heading {
+   color: black;
+   text-align: center;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: x-large;
+   margin-top: 230px;
+   margin-left: 5px;
+   text-shadow: 1px 1px 1px gold;
+}
+
+body {
+   margin: 0;
+   height: 100vh;
+   background-image: url("./assets/image3.jpg");
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+
+.paragraph{
+   text-align: center;
+   text-shadow: 1px 1px 1px gold;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: x-large;
+   color :blueviolet;
+   font-weight: bolder;
+}
+
+.anchor{
+   text-align: center;
+
+}
+
+.anchor:hover{
+   color: rgb(221, 0, 255);
+   text-shadow: 1px 1px 1px black;
+   animation: pulse 1s infinite;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 15px 60px;
+    background-color  : white;
+    backdrop-filter : propeller;
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+}
+
+.nav-links{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.nav-links a:hover{
+    color: purple;
+}
+
+/* .navbar{
+    position: absolute;
+    width: 95%;
+    top: 0;
+    background: rgba(255,255,255,0.2);
+    backdrop-filter: blur(10px);
+} */
