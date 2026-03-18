@@ -1,0 +1,76 @@
+.major {
+    border: 2px solid grey;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100px;
+    box-shadow: 2px 2px 2px grey;
+    max-width: 450px;
+    padding: 20px;
+    margin-top: 130px;
+    margin-left: 530px;
+    max-height: 450px;
+    overflow-y: auto;
+    background-color: white;
+    color : black;
+    font-style: italic;
+    font-display: block;
+}
+
+.major h1 {
+    font-weight: bold;
+    align-content: center;
+    padding-left: 100px;
+    color : darkblue;
+    font-style: italic;
+    font-display: block;
+}
+
+.button-box input {
+    width: 290px;
+    height: 40px;
+    font-size: 18px;
+    padding: 5px 10px;
+    border-radius: 05px;
+    gap: 10px;
+    /* inner spacing */
+}
+
+.button-box button {
+    height: 42px;
+    /* match input height */
+    font-size: 18px;
+    padding: 5px 20px;
+    border-radius: 5px;
+    background-color: rgb(52, 52, 255);
+    color: white;
+    border: 2px solid rgb(52, 52, 255);
+    margin-bottom: 10px;
+    /* make button bigger */
+}
+
+.lists {
+    border: 2px solid grey;
+    box-shadow: 2px 2px 2px grey;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    font-size: 20px;
+    font-weight: medium;
+}
+
+.hello {
+    background-color: red;
+    color: white;
+    border: 2px solid red;
+    border-radius: 5px;
+    float: right;
+    margin-right: 10px;
+    width: 70px;
+    height: 30px;
+    font-size: medium;
+}
+
+body {
+    background-image: url("./assets/to-do.jpg");
+    background-position: center;
+    background-size: cover;
+}
