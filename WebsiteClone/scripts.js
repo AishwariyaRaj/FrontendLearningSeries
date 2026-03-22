@@ -2,7 +2,7 @@ async function show() {
     let input = document.querySelector("input");
     let value = input.value;
 
-    let apiKey = "d_IMD2e6asRHPfCx5sQf8dqNwdGuUEEYMPPY0R_4LAE";
+    let apiKey = YOUR_API_KEY;
 
     let url = `https://api.unsplash.com/search/photos?query=${value}&per_page=30&client_id=${apiKey}`;
 
@@ -28,8 +28,15 @@ async function show() {
         name.innerText = photo.user.name;
         name.classList.add("photo-name");
 
+        let download = document.createElement("a");
+        download.innerText = "Download";
+        download.href = photo.urls.full;
+        download.setAttribute("download", "");
+        download.classList.add("download-btn");
+
         card.appendChild(img);
         card.appendChild(name);
+        card.appendChild(download);
 
         resultsDiv.appendChild(card);
     });
